@@ -144,3 +144,86 @@
    {}: object
    []: object
    function(){}: function
+
+   4) operators:
+=============
+
+why operators?
+
+we use operators to develop some logic or expression in combination with variables.
+
+1) Arithmatic
+
+We use arithmatic operators to perform some mathematical operations.
+
+   + add
+   - subtraction
+   * multification
+   / devision
+   % remainder
+   ** exponential
+   ++ incremental : It increases 1 at a time.
+   __ decremental : It decreases 1 at a time.
+
+2) Assignment (=)
+
+   By using assignment operator we can assign/store value (data) to a variable.
+   
+
+3) Comparision
+
+   It compares the two values, the result from this operators will be true/false. 
+
+    1) Rational/Relational
+
+    >
+    >=
+    <
+    <=
+
+   2) Equality 
+    
+    1) Loose equality (==) It compares only value of variables
+    2) Strict equality (===) It compares value and data type of variables
+
+     undefined == null
+     undefined === null
+
+   3) Inequality 
+
+     1) Loose inequality (!=)
+
+     The != operator is the inequality operator. It checks whether two values are not equal, regardless of their types. If the values are different, it returns true. If the values are the same, it returns false. 
+    
+     2) Strict inequality (!==)
+
+     The !== operator is the strict inequality operator. It checks whether two values are not equal and whether they are of the same type. If the value or the type are different, it returns true; otherwise, it returns false.
+
+   
+
+4) Ternary operator
+
+   We use ternary operator to render content conditionally.
+
+   let age = 15;
+
+   let vote = age >= 18 ? 'Having vote' : 'Not having vote';
+
+   console.log(vote);
+
+
+5) Logical operator
+
+  In JavaScript, logical AND (&&) and logical OR (||) are operators used to perform logical operations on boolean values or expressions.
+
+  1) logical and && 
+
+  2) logical or ||
+
+  3) ! Operator
+
+     The exclamation mark (!) is the logical NOT operator.
+
+     When used, it converts a true value to false and vice versa.
+   
+     ! is the logical NOT operator, used for negating boolean values.
